@@ -1,3 +1,5 @@
+![Build status](https://github.com/drehak/open-source-development-course-hw02-1/actions/workflows/python-package.yml/badge.svg)
+
 # Simple Vector implementation in python 
 
 Very simple vector implementation supporting basic operations.
