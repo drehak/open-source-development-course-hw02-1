@@ -13,8 +13,16 @@ print(a)
 ```
 
 Operations:
-- Addition with a scalar `a+1`
+- Field access: `a[1]`
+- Addition with a scalar: `a + 1`
+- Multiplication with a scalar: `a * 3`
+- XOR with a scalar: `a ^ 3`
+- Vector subtraction: `a - b`
 - Vector addition: `a + b`
+- Vector comparison: `a < b`
+- Vector negation: `-a`
+- Vector length: `length(a)`
+- Vector reversal: `reversed(a)`
 
 ## Installation
 
