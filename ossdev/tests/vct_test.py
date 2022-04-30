@@ -54,10 +54,8 @@ class VectorTest(unittest.TestCase):
         self.assertEqual(a.dot(b), 0)
 
     def test_lenght(self):
-        # Uncomment after passing
-        # self.assertAlmostEqual(Vector([2, 4]).length(), 4.47213595499, 3)
-        # self.assertAlmostEqual(Vector([2, 4, 5]).length(), 6.708203932499369, 3)
-        return
+        self.assertAlmostEqual(Vector([2, 4]).length(), 4.47213595499, 3)
+        self.assertAlmostEqual(Vector([2, 4, 5]).length(), 6.708203932499369, 3)
 
 
 if __name__ == "__main__":
